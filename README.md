@@ -1,3 +1,10 @@
+# 安装/更新
+
+在 https://github.com/huichen/sego 的基础上修改，感谢作者
+
+
+# 以下为原文
+
 sego
 ====
 
