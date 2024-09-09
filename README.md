@@ -1,6 +1,6 @@
 # 修改说明
 
-在 https://github.com/huichen/sego 的基础上修改，感谢作者
+在 https://github.com/huichen/sego 的基础上修改词典加载逻辑，不让报错退出，感谢作者
 
 
 # 以下为原文
