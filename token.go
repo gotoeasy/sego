@@ -63,7 +63,7 @@ func (token *Token) TextEquals(string string) bool {
 		textArray := []byte(token.text[i])
 		for j := 0; j < len(textArray); j++ {
 			if textArray[j] != bytStr[index] {
-				index = index + 1
+				// index = index + 1
 				return false
 			}
 			index = index + 1
