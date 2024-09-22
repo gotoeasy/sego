@@ -129,15 +129,15 @@ func Test_Token_Split(t *testing.T) {
 	}
 	word := "卫衣女宽松拉链外套开衫韩版"
 	var segmenter Segmenter
-	segmenter.LoadDictionary("dictionary.txt")
-	segments := segmenter.InternalSegment([]byte(word),true)
-	for _,s := range segments{
+	segmenter.LoadDictionary("data/dictionary.txt")
+	segments := segmenter.InternalSegment([]byte(word), true)
+	for _, s := range segments {
 		fmt.Println(s.token.Text())
 	}
 	for _, value := range probMap {
 		for _, s := range segments {
 			if s.Token().Text() == value {
-				fmt.Println("=",value)
+				fmt.Println("=", value)
 			}
 		}
 	}
